@@ -1,0 +1,53 @@
+
+.ports {
+    width: 100px;
+    overflow-y: scroll;
+    height:100%;
+}
+
+
+.subheader {
+    overflow-y: scroll;
+    padding: 10px 0 5px 0;
+    position: relative;
+}
+
+.subheader .error {
+    display: flex;
+    flex-direction: row;
+}
+.subheader .error > div {
+    background-color: #ff6258;
+    padding: 4px 5px 2px 5px;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background-color: yellow;
+}
+
+.progress-bar.reading {
+    background-color: var(--yellow);
+}
+.progress-bar.writing {
+    background-color: var(--red);
+}
+
+.no-midi {
+    margin: 0;
+    border: 8px solid #e0e0e0;
+    padding: 4px;
+    background-color: #fff900;
+    color: #000;
+    text-align: center;
+}
+
+@media print {
+    .subheader {
+        display: none;
+    }
+}
+

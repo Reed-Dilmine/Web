@@ -1,0 +1,65 @@
+/*
+.outer{
+    overflow-y: auto;
+    height:100%;
+}
+
+.outer table {
+    width: 100%;
+    table-layout: fixed;
+    border: none;
+}
+
+.outer table th {
+    text-align: left;
+    top:0;
+    position: sticky;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 2px 8px;
+    vertical-align: top;
+    background-color: #eee;
+}
+*/
+
+.data {
+    /*font-family: monospace;*/
+    /*font-family: 'Source Code Pro', monospace;*/
+    font-family: 'B612 Mono', monospace;
+    white-space: pre;
+}
+
+th.filter input {
+    width: calc(100% - 6px);
+    border: none;
+}
+
+th.filter input.active {
+    background-color: #ffff77;
+}
+
+.midi-time {
+    width: 6rem;
+}
+
+table th.midi-ch,
+table td.midi-ch {
+    /*min-width: 2vw;*/
+    width: 3rem!important;
+    min-width: 3rem!important;
+    max-width: 3rem!important;
+}
+
+.ra {
+    text-align: right;
+}
+
+.nw {
+    white-space: nowrap;
+}
+
+span.toggle_full {
+    cursor: pointer;
+    color: blue;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}

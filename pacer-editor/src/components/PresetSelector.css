@@ -1,0 +1,82 @@
+.preset-selectors {
+    display: grid;
+    grid: repeat(5, 1fr) / repeat(6, auto);
+    grid-gap: 6px;
+    justify-content: start;
+    margin: 6px 30px 10px 0;
+}
+
+.preset-selectors > div {
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: flex-start;
+    align-items: center;
+    width: 120px;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+}
+
+.preset-selectors > div.force-read {
+    grid-column: span 3;
+    width: auto;
+    justify-self: right;
+    user-select: none;
+}
+
+.force-read input {
+    margin-right: 10px;
+}
+
+.selector {
+    /*background-color: #eeeeff;*/
+    /*border: 1px solid #bbbbff;*/
+    background-color: #fafafa;
+    border: 1px solid #e7e7e7;
+    /*color: #555;*/
+    color: #000;
+}
+
+.selector:hover {
+    background-color: lightblue;
+    border: 1px solid #aaa;
+}
+
+.selector.loaded {
+    color: #000;
+    background-color: #eceaf5;
+}
+
+.selector.selected {
+    background-color: green;       /* present selected color overrides preset hover color */
+    border: 1px solid green;
+    color: white;
+}
+
+.selector .preset-id {
+    width: 30px;
+    text-align: left;
+}
+
+.preset-name-editor {
+    margin-top: 10px;
+}
+
+.preset-name-editor label {
+    font-weight: bold;
+}
+
+.preset-name-editor input {
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.d6info {
+    line-height: 125%;
+}
+
+.dismiss {
+    display: inline;
+    margin-left: 5px;
+    color: blue;
+    cursor: pointer;
+}

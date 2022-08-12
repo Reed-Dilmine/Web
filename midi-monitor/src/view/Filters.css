@@ -1,0 +1,40 @@
+.filters {
+    padding: 10px 10px 0 10px;
+}
+
+.filters-wrapper {
+    margin-bottom: 10px;
+}
+
+.filters .title.first {
+    margin-top: 0;
+}
+
+.filters-toggle {
+    float: right;
+    color: blue;
+    cursor: pointer;
+}
+
+.filters-grid {
+/*    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 1rem;
+*/
+    margin: 0.25rem 0 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.filters-grid > div {
+    /*margin-top: 0.25rem;*/
+}
+
+.filters-grid > div:first-child {
+    margin-top: 0;
+}
+
+.filters label {
+    padding: 0;
+    margin: 0;
+}

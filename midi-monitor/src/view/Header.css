@@ -1,0 +1,119 @@
+
+.pre-header {
+    padding: 2px 10px 0 10px;
+    font-size: 12px;
+    color: var(--text-light);
+}
+
+.pre-header a,
+.header a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+    border-bottom: 1px solid #bbb;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.keep-last,
+.middlec-selector,
+.pitchbend-selector {
+    margin-right: 20px;
+}
+
+/*
+.header-app-name {
+    font-family: "Roboto Condensed", "Roboto", Helvetica, Arial, sans-serif;
+    text-align: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.header-app-name a {
+    text-decoration: none;
+}
+*/
+
+.header-link {
+    padding: 14px 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.header-link:hover {
+    background-color: #000;
+}
+
+.header-link div {
+    padding: 0 16px;
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-link.active {
+    background-color: #0030ff;
+}
+
+.header-link.active a {
+    color: #fff;
+}
+
+.clear-button {
+    margin: 0 20px;
+    padding: 2px 20px 1px 20px;
+    background-color: #ffb838;
+    font-weight: bold;
+}
+
+
+.spacer {
+    flex-grow: 10;
+}
+
+.popup-content {
+    width: 30%;
+}
+
+.about {
+    flex-grow: 1;
+    /*justify-content: flex-end;*/
+    text-align: end;
+    /*padding: 10px 30px;*/
+    /*text-align: center;*/
+    /*color: #555;*/
+}
+
+.about a {
+    text-decoration: none;
+}
+
+.about > div {
+    margin-top: 20px;
+}
+
+.about-title {
+    font-size: 2rem;
+}
+
+.about-deps {
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 10px;
+}
+
+.about-deps > div {
+    margin-bottom: 10px;
+}
+
+.about-deps > a {
+    margin-right: 15px;
+}
+
+.about-support {
+    margin-bottom: 20px;
+}

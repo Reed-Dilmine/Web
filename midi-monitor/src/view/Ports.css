@@ -1,0 +1,106 @@
+
+.ports-wrapper {
+    padding: 0 10px;
+}
+
+.ports-grid {
+    /*padding: 5px 10px;*/
+}
+
+/*
+.port {
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px 4px 4px 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #b8b8b8;
+    font-size: 0.85rem;
+}
+*/
+
+.port {
+    /*border: 1px solid #5c925c;*/
+    max-width: 200px;
+    margin: 0 0 0.5rem 0;
+    padding: 0.5rem 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /*background-color: #b8b8b8;*/
+    /*background-color: #c7c7c7;*/
+    background-color: #f8f8f8;
+    /*font-size: 12px;*/
+    position: relative;
+    cursor: pointer;
+}
+
+/*.port > div {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+.port-name {
+    font-weight: 700;
+    /*margin-right: 4px;*/
+    margin: 5px 0 2px 0;
+}
+
+.port-manufacturer {
+    font-size: 0.875rem;
+}
+
+.port-options {
+    /*text-align: right;*/
+    display: flex;
+
+}
+
+.port-option-trigger {
+    font-size: 12px;
+    border: 1px solid #555;
+    padding: 0 2px;
+    margin-right: 2px;
+    user-select: none;
+}
+
+.port-option-trigger.on {
+    background-color: yellow;
+}
+
+.port-option-trigger.warn {
+    background-color: orange;
+}
+
+.port-messages {
+    text-align: right;
+    flex: 2;
+}
+
+.port-switch {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    /*margin-left: 4px;*/
+}
+
+/*.react-switch {*/
+/*    vertical-align: middle;*/
+/*}*/
+
+/*.react-switch-bg {*/
+/*    background-color: rgb(136, 136, 136)!important;*/
+/*}*/
+
+.port.enabled {
+    /*background-color: #86e086;*/
+    background-color: lightgreen;
+    border-color: #5c925c;
+}
+
+/*.device-ok .react-switch-bg {*/
+/*    background-color: green!important;*/
+/*}*/

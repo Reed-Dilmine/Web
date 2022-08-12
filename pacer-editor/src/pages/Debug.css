@@ -1,0 +1,21 @@
+
+.send-message {
+    margin: 0.5rem 0;
+}
+
+.send-message input {
+
+}
+
+.message-name {
+    margin-left: 2rem;
+}
+
+.custom-message {
+    margin: 12px 0;
+}
+
+.send-message button {
+    margin-right: 1rem;
+    padding: 5px 10px;
+}
